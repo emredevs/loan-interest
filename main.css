@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#form {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: brown;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+  flex-direction: column;
+}
+#listVade {
+  width: 22%;
+}
+button {
+  margin-top: 2%;
+  width: 22%;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+  background-color: rgb(163, 192, 120);
+}
+button:hover {
+  color: rgb(163, 192, 120);
+  background-color: white;
+}
